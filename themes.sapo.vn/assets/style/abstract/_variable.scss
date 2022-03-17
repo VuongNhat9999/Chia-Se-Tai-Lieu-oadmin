@@ -1,0 +1,29 @@
+/* Chứa các biến dùng chung. Cần học thuộc vì trong này có nhiều biến dùng chung thường dùng */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600&family=Noto+Sans+KR:wght@100;500&display=swap');
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --orange-color: #e98c2e;
+    --blackA1-color: #1A1A1A;
+    --black2E-color: #2E2E2E;
+
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: var(--black-color);
+}

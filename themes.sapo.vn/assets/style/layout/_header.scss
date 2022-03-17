@@ -1,0 +1,28 @@
+/* vùng đầu trang */
+.header{
+    height: 94px;
+    background-color: var(--black-color); 
+}
+
+.header__slider{
+    display: flex;
+    height: 94px;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+    .header__slider{
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 768px){
+    .header{
+        height: 60px;
+        background-color: var(--black-color); 
+    }
+    .header__slider{
+        height: 60px;
+    }
+}

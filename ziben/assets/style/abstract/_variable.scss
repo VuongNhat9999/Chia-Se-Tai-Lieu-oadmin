@@ -1,0 +1,18 @@
+/* Chứa các biến dùng chung. Cần học thuộc vì trong này có nhiều biến dùng chung thường dùng */
+:root{
+    --white-color: #fff;
+    --gray-color: #f0f0f0;
+    --black-color: #000;
+    --light-color: #001c53;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Noto Sans KR', sans-serif;
+}

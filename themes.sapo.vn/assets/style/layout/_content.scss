@@ -1,0 +1,47 @@
+/* Vùng nội dung */
+.content{
+    background-color: var(--black2E-color);
+}
+
+.content__list{
+    padding: 70px 0;
+}
+
+.content__list--01{
+    text-align: center;
+
+}
+
+.content__list--h3{
+    font-size: 4.0rem;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.content__list--02{
+    display: block;
+    padding: 15px 0;
+}
+
+.content__list--03{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    width: 70%;
+    margin: auto;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+.content__list--h3:hover{
+    cursor: pointer;
+    color: var(--orange-color);
+}
+
+@media (max-width: 768px){
+    .content__list--h3{
+        font-size: 2.6rem;
+    }
+    .content__list--03{
+        font-size: 1.5rem;
+    }
+}

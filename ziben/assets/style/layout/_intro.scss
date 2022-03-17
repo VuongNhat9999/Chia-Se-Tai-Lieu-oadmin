@@ -1,0 +1,57 @@
+.intro{
+    padding: 50px 0;
+    background-color: var(--gray-color);
+}
+
+.intro__lists{
+    display: flex;
+    position: relative;
+}
+
+.intro__left{
+    width: 400px;
+
+}
+
+.intro__left--text{
+    position: absolute;
+    width: 400px;
+    top: 25%;
+    left: 0;
+}
+
+.intro__right{
+   width: 800px; 
+}
+
+.intro__right--img img{
+    width: 100%;
+}
+
+.intro__left--headline{
+    font-size: 3.0rem;
+    font-weight: 800;
+}
+
+.intro__headline--help{
+    font-size:1.3rem;
+    margin: 20px 0;
+}
+
+.intro__links{
+    text-decoration: none;
+    padding:15px 0;
+    font-size:1.5rem;
+}
+
+.intro--S2{
+    position: absolute;
+    width: 400px;
+    top: 25%;
+    right: -6px;
+    left: auto;
+}
+
+.intro__white{
+    background-color: var(--white-color);
+}
